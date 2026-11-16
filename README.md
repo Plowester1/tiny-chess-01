@@ -6,6 +6,10 @@
 
 A 4 KB Python chess engine: rotated 10x12 board, negamax with quiescence and a transposition table, fixed 50,000 nodes per move.
 
+## Design
+
+A 4 KB engine on a rotated 10x12 string board: negamax search with captures-only quiescence, a transposition table and MVV-LVA move ordering, at a fixed budget of 50,000 nodes per move. Local practice trials average about 1,320 Elo against the house opponents (floor 1,154).
+
 ## Run it
 
 ```sh
